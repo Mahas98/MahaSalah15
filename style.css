@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+
+body{
+    font-family: "Cairo", sans-serif;
+}
+/* ***************************************star header*********************************** */
+.header {
+    color: aliceblue;
+    /* background-color: rgb(10, 110, 110); */
+    background-image: url(header1.jpg);
+    height: 50px;
+    line-height: 50px;
+}
+.header a{
+    float: right; 
+    margin-top: 5px;   
+}
+/* ***************************************end header*********************************** */
+/* ***************************************start slaider*********************************** */
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.459);
+    z-index: 1;
+    position: absolute;
+    height: 500px;
+}
+.logo img{
+    float: left;
+    border-radius: 5px;
+    height: 50px;
+     width: 60px;
+     transition: all ease 0.5s;
+}
+.logo img:hover{
+    transform: scale(1.1);
+}
+/* ***************************************end slaider*********************************** */
+/* ***************************************start Our Models*********************************** */
+.Our-Models{
+    margin-top: 75px;
+}
+.Our-Models i{
+    width:100px ;
+    height: 100px;
+    background-color: #59a76d;
+    line-height: 100px;
+    color: #fff;
+    font-size: 40px;
+    
+}
+.Our-Modelsh3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.Our-Models p{
+    color: rgb(41, 41, 41);
+    line-height: 1.8;
+}
+.Our-Models h2{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+/* ***************************************end feutures*********************************** */
+/* ***************************************start our team*********************************** */
+.our-team {
+    background-color: #eee;
+    background-image: url('ourteam.png');
+    background-repeat: no-repeat;
+    background-size: cover;  
+    background-attachment: fixed;
+}
+.our-team h2{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+/* ***************************************end our team*********************************** */
+/* ***************************************start statistec*********************************** */
+.statistec{
+    margin-top: 100px;
+    width: 100%;
+    height: 500px;
+    background-image: url('back1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+.statistec {
+    padding-top: 130px;
+    background-color: rgba(0, 0, 0, 0.336);
+    width: 100%;
+    height: 100%;
+}
+.statistec  h3 {
+    color: #fff;
+ }
+ .statistec  p {
+  color: white;
+  font-size: 50px;
+ }
+/* ***************************************end staristec*********************************** */
+/* ***************************************start Our Implementation*********************************** */
+.Our-Implementation { 
+    margin-top: 50px;
+    background-color: #eee;
+    height: 300px;
+    line-height: 200px;
+    border-bottom: black dashed 2px;
+    border-top: black dashed 2px;
+}
+.Our-Implementation img{
+    width: 100px;
+    height: 150px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    
+}
+/* ***************************************end Our Implementations*********************************** */
+/* *************************************** start recnet-news*********************************** */
+.recnet-news{
+    height: 500px;
+}
+.recnet-news h2{
+    padding-bottom: 20px;
+}
+.recnet-news img{
+    height: 300px;
+}
+.recnet-news button{
+   background-color: #59a76d;
+   transition: all 0.5s ease;
+}
+.recnet-news button:hover{
+    transform: scale(1.1);
+}
+.recnet-news a{
+    color: #fff;
+}
+.recnet-news a:hover{
+  text-decoration: none;
+}
+/* ***************************************end recnet-news*********************************** */
+
+
+/* ***************************************start footer*********************************** */
+footer{
+    background-color:#59a76de8;
+    color: #fff;
+    font-size: medium;
+    padding-top: 30px;
+    margin-top: 150px;
+}
+footer a{
+    color: #fff;
+}
+footer a:hover{
+    color: black;
+}
+footer ul li{
+    list-style: none;
+}
+.footer1 a:hover{
+    text-decoration: none;
+}
+
+.footer1{
+    background-color: #2e643b;
+    text-align: center;
+    padding-top: 10px;
+}
+
+/* ***************************************end footer*********************************** */
+/* ***************************************start blogs*********************************** */
+.jumbotron{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.jumbotron .blog_info{
+    flex: 2;
+}
+.jumbotron .blog_image{
+    flex: 1;
+}
+.blog p{
+    line-height: 2;
+}
+
+/* ***************************************end blogs*********************************** */
+
+
+
+div h2{
+    font-size: 40px;
+  
+}
+
+
+
+
+
+/* ***************************************لتعديل اي خاصية بشكل يتناسب مع كل الشاشات*********************************** */
+@media (min-width: 330px) {
+  
+ }
+@media (min-width: 576px) {
+    .carousel-inner{
+        height: 300px;
+    }
+ }
+@media (min-width: 768px) { 
+   
+}
+@media (min-width: 992px) { 
+    .carousel-inner{
+        height: 500px;
+    }
+  
+ }
+@media (min-width: 1200px) { }
+/* ***************************************لتعديل اي خاصية بشكل يتناسب مع كل الشاشات*********************************** */
+
